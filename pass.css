@@ -1,0 +1,65 @@
+.field-icon{
+    float: left;
+    color: #000000;
+    margin-top: 17px;
+    margin-left: 15px;
+    position: relative;
+    font-size: 1.6rem;
+
+}
+#validation_box {
+
+    display: none;
+    background: transparent;
+    color: #000;
+    position: relative;
+    padding: 10px;
+    margin-top: 4px;
+    text-align: left;
+
+} 
+
+h4 {
+
+    font-size: 15px;
+    margin: 20px 0px;
+}
+
+#validation_box p {
+
+
+    font-size: 14px;
+
+
+
+}
+
+.valid {
+
+    color: #7fcf35;
+
+}
+
+.valid:before {
+
+    position: relative;
+    left: -8px;
+    top: 3px;
+    content: url(true.png);
+}
+
+
+.invalid {
+
+    color: #686868;
+
+}
+
+.invalid:before {
+
+    position: relative;
+    left: -8px;
+    top: 3px;
+    content: url(false.png);
+
+}

@@ -1,0 +1,157 @@
+body {
+
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(118, 119, 192, 0.5), rgba(14, 11, 238, 0.5)), url("img/f.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+
+    background:transparent;
+    width: 450px;
+   
+    min-height: 250px;
+    border-radius: 15px;
+    box-shadow: -30px 30px 20px rgb(2, 2, 2);
+    padding: 40px 30px;
+    text-align: center;
+
+}
+
+.form-group {
+   
+  width: 90%;
+  background-color: rgb(255, 255, 255);
+  margin: 10px 0;
+  height: 65px;
+  border-radius: 55px;
+  display: grid;
+  grid-template-columns: 15% 85%;
+  padding: 0 0.4rem;
+  position: relative;
+}
+.form-group input {
+  background: none;
+  outline: none;
+  border: none;
+  line-height: 1;
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: rgb(12, 12, 11);
+}
+.form-group input::placeholder {
+  color: rgb(197, 190, 190);
+  font-weight: 700;
+  font-size: 1.4rem;
+}
+.form-group i{
+    text-align: center;
+  line-height: 70px;
+  color: #030303;
+  transition: 0.5s;
+  font-size: 1.6rem;
+}
+
+h1 {
+    text-align: center;
+    margin: 29px 0px;
+    font-size: 26px;
+}
+
+.btn-submit {
+  width: 150px;
+  background-color: #486085;
+  border: none;
+  outline: none;
+  height: 49px;
+  border-radius: 49px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 1.3rem;
+  margin: 10px 0;
+  cursor: pointer;
+  transition: 0.1s;
+}
+.btn-submit:hover {
+  background-color: #4d84e2;
+}
+
+
+.field-icon {
+    float: right;
+
+    margin-top: -25px;
+    margin-right: 5px;
+    position: relative;
+    z-index: 2;
+}
+
+
+
+
+
+
+
+
+
+#validation_box {
+
+    display: none;
+    background:transparent;
+    color: #000;
+    position: relative;
+    padding: 10px;
+    margin-top: 4px;
+    text-align: left;
+
+}
+
+h4 {
+
+    font-size: 15px;
+    margin: 20px 0px;
+}
+
+#validation_box p {
+
+
+    font-size: 14px;
+
+
+
+}
+
+.valid {
+
+    color: #7fcf35;
+
+}
+
+.valid:before {
+
+    position: relative;
+    left: -8px;
+    top: 3px;
+    content: url(true.png);
+}
+
+
+.invalid {
+
+    color: #686868;
+
+}
+
+.invalid:before {
+
+    position: relative;
+    left: -8px;
+    top: 3px;
+    content: url(false.png);
+
+}
